@@ -3,10 +3,10 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
-.logo-accent {
-    color: #2e2f42;
+span {
+    color: #F4F4FD;
 }
+
 .logo {
     text-decoration: none;
     list-style: none;
@@ -16,6 +16,19 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: #4d5ae5;
+}
+.logo-accent {
+    color: D9D9D9;
+}
+
+.address {
+    font-style: normal;
+}
+.address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .nav-link
 {
@@ -24,12 +37,14 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;   
 }
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover, .nav-link:focus, .address-link:hover, .address-link:focus {
     color: #404bbf;
 }
 /*!hero section*/
 .hero {
     background-color: #2e2f42;
+}
+.hero-logo {
     font-size: 56px;
     line-height: 1.07; 
     text-align: center;
@@ -120,12 +135,15 @@ body {
 .basement-text {
     line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 ul > li {
     list-style: none;
+    text-decoration: none;
 }
 ul > a {
     list-style: none;
+    text-decoration: none;
 }
 
